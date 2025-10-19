@@ -1,0 +1,17 @@
+{
+    "author": ["Floof"],
+    "install_msg": "The Banishment cog has been installed! Users with the required role can now use `[p]banish` and `[p]unbanish`.",
+    "name": "Banishment",
+    "short": "A tool to temporarily banish users by stripping and saving their roles.",
+    "description": "Provides `banish` and `unbanish` commands for moderation. Banish removes a user's roles (saving them for later) and applies a Muted role. Unbanish removes the Muted role and restores all saved roles. Command usage is restricted to a configurable role.",
+    "tags": [
+        "moderation",
+        "admin",
+        "utility",
+        "tools",
+        "roles"
+    ],
+    "requirements": [],
+    "min_bot_version": "3.5.0",
+    "end_user_data_statement": "This cog stores a list of a user's role IDs when they are banished, linked to their user ID and the server ID. This data is deleted when the user is unbanished."
+}
